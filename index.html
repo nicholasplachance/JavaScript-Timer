@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JavaScript Timer</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>JavaScript Timer in Seconds</h1>
+      <input
+        class="item"
+        id="userInput"
+        type="number"
+        placeholder="set timer in seconds"
+      />
+      <p class="item" id="timer">0</p>
+      <button class="item" id="start" onclick="setTimer()">Start Timer</button>
+      <button class="item" id="stop" onclick="stopTimer()">Stop Timer</button>
+      <button class="item" id="pause" onclick="resumeTimer()">
+        Resume Timer
+      </button>
+    </div>
+  </body>
+</html>
+
+<script src="app.js"></script>
