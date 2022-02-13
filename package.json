@@ -1,0 +1,11 @@
+{
+  "name": "JavaScript Timer",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.1"
+  }
+}
